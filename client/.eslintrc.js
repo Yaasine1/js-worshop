@@ -14,7 +14,7 @@ module.exports = {
   plugins: ["react"],
   rules: {
     indent: ["error", 2, { VariableDeclarator: 2, MemberExpression: 2 }],
-    "linebreak-style": ["error", "unix"],
+    // "linebreak-style": ["error", "unix"],
     quotes: ["error", "double"],
     semi: ["error", "always"],
   },
